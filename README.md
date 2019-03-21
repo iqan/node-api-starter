@@ -18,6 +18,14 @@ npm i
 ```
 npm run
 ```
+- Run tests
+```
+npm run test
+```
+- check lint errors
+```
+npm run lint
+```
 
 ### Docker steps
 - Build Docker image

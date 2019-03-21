@@ -1,6 +1,8 @@
 # node-api-starter
 A starter template for nodejs-expressjs-mongodb api
 
+[![Build Status](https://travis-ci.org/iqans/node-api-starter.svg?branch=master)](https://travis-ci.org/iqans/node-api-starter)
+
 ## Pre-requisites
 - NodeJS
 - MongoDB

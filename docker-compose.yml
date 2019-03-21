@@ -1,0 +1,29 @@
+version: '3'
+
+networks:
+  my_network:
+    driver: bridge
+
+services:
+  my_service:
+    image: "iqan/my_service:1.0.0"
+    build: .
+    container_name: my_service
+    ports:
+     - "3000:3000"
+    networks:
+     - my_network
+    environment:
+     - MONGO_URL=mongodb://my_db:27017/db
+    restart: on-failure
+    depends_on:
+      - my_db
+  my_db:
+    image: "mongo:4.1.1-xenial"
+    container_name: my_db
+    expose:
+      - 27017
+    ports:
+      - "27017:27017"
+    networks:
+      - my_network

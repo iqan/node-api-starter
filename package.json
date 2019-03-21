@@ -1,8 +1,8 @@
 {
-  "name": "na_notifications_service",
+  "name": "my_api",
   "version": "1.0.0",
-  "description": "Notes App",
-  "repository": "https://gitlab-cts.stackroute.in/Iqan/notes-app",
+  "description": "My API",
+  "repository": "https://github.com/iqans/node-api-starter",
   "main": "index.js",
   "scripts": {
     "start": "node ./server/bin/www",
@@ -12,14 +12,16 @@
   },
   "keywords": [
     "node.js",
-    "express.js"
+    "express.js",
+    "starter",
+    "node-starter"
   ],
   "author": "Iqan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "log4js": "^3.0.3",
     "mongoose": "^5.4.19",
     "morgan": "^1.9.1",

@@ -5,10 +5,10 @@
   "repository": "https://github.com/iqans/node-api-starter",
   "main": "index.js",
   "scripts": {
-    "start": "node ./server/bin/www",
-    "watch": "nodemon ./server/bin/www",
-    "test": "node_modules/.bin/mocha ./server/test/**/*.js",
-    "lint": "node_modules/.bin/eslint './server/**/*.js' --ignore-path .eslintignore"
+    "start": "node ./src/bin/www",
+    "watch": "nodemon ./src/bin/www",
+    "test": "node_modules/.bin/mocha ./src/test/**/*.js --exit",
+    "lint": "node_modules/.bin/eslint './src/**/*.js' --ignore-path .eslintignore"
   },
   "keywords": [
     "node.js",

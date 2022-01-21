@@ -22,7 +22,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
-    "log4js": "^3.0.3",
+    "log4js": "^6.4.0",
     "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "swagger-ui-express": "^3.0.10",
